@@ -11,7 +11,7 @@ stages:
   - job: 'Build'
     displayName: 'Build job'
     pool:
-      name: 'SFOAPP35'
+      vmImage: 'ubuntu-20.04'
       demands:
       - npm
 
